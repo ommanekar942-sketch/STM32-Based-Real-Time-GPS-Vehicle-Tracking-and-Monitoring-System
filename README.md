@@ -151,16 +151,6 @@ The LCD operates in 4-bit mode for displaying:
 
 ---
 
-# Important Notes
-
-- All grounds must be connected together.
-- ESP8266 operates at 3.3V logic level.
-- GPS coordinates are extracted from `$GPGGA` NMEA sentences.
-- UART interrupt mode is used for real-time data reception.
-- LCD operates in 4-bit communication mode.
-
----
-
 # STM32 Peripheral Configuration
 
 | Peripheral | Purpose |
